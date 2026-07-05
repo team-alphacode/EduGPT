@@ -1,0 +1,7 @@
+venv/
+_pycache
+*.рус
+.idea/
+.vscode/
+checkpoints/
+outputs/
