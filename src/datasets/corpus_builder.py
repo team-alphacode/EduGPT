@@ -52,3 +52,7 @@ class CorpusBuilder:
         corpus = self.read_books(books)
         self.save_corpus(corpus)
         self.show_corpus_information(books, corpus)
+
+    def load_corpus(self):
+        with open(self.corpus_path, "r", encoding="utf-8") as file:
+            return file.read()

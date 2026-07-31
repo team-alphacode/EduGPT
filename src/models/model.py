@@ -17,10 +17,13 @@ class EduGPT:
         print("1. Construir corpus")
         print("2. Entrenar modelo")
         print("3. Información del modelo")
+        print("4. Tokenizador Manual")
+        print("5. Tokenizador NLTK")
+        print("6. Tokenizador TikToken")
         print("0. Salir")
         print()
         return input("Seleccione una opción: ")
-
+        
     def train(self):
         print()
         print("=" * 45)
