@@ -64,7 +64,6 @@ class EduGPT:
         print(f"Archivo generado...... {self.corpus_path}")
 
     def build_corpus(self):
-        self.show_information()
         books = self.find_books()
         print("\n**********  CONSTRUCCIÓN DEL CORPUS **********")
         if not books:
@@ -76,3 +75,20 @@ class EduGPT:
         corpus = self.read_books(books)
         self.save_corpus(corpus)
         self.show_corpus_information(books, corpus)
+
+        def show_menu(self):
+        self.show_information()
+        print("1. Construir corpus")
+        print("2. Entrenar modelo")
+        print("3. Información del modelo")
+        print("0. Salir")
+        print()
+        return input("Seleccione una opción: ")
+
+    def train(self):
+        print()
+        print("=" * 45)
+        print("           ENTRENAMIENTO")
+        print("=" * 45)
+        print()
+        print("Esta función estará disponible próximamente")
