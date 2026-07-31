@@ -1,11 +1,13 @@
-from src.edugpt.model import EduGPT
+from src.models.model import EduGPT
+from src.datasets.corpus_builder import CorpusBuilder
 
 def main():
     model = EduGPT()
+    builder = CorpusBuilder()
     while True:
         option = model.show_menu()
         if option == "1":
-            model.build_corpus()
+            builder.build_corpus()
         elif option == "2":
             model.train()
         elif option == "3":
