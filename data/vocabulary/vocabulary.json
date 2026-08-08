@@ -1,0 +1,38 @@
+{
+    "token_to_id": {
+        "elgatoesunanimal": 0,
+        "elperroesunanimal": 1,
+        "elvolcáncerronegroestáenleón": 2,
+        "lamemoriaramalmacenainformacióntemporal": 3,
+        "lasavesvuelan": 4,
+        "leónesunaciudaddenicaragua": 5,
+        "losgatosmaúllan": 6,
+        "losobjetostienenatributos": 7,
+        "losobjetostienenmétodos": 8,
+        "lospecesnadan": 9,
+        "losperrosladran": 10,
+        "nicaraguaestáencentroamérica": 11,
+        "pythonesunlenguajedeprogramación": 12,
+        "unaclasepuedecrearobjetos": 13,
+        "unacomputadoraprocesadatos": 14,
+        "unavariablealmacenainformación": 15
+    },
+    "id_to_token": {
+        "0": "elgatoesunanimal",
+        "1": "elperroesunanimal",
+        "2": "elvolcáncerronegroestáenleón",
+        "3": "lamemoriaramalmacenainformacióntemporal",
+        "4": "lasavesvuelan",
+        "5": "leónesunaciudaddenicaragua",
+        "6": "losgatosmaúllan",
+        "7": "losobjetostienenatributos",
+        "8": "losobjetostienenmétodos",
+        "9": "lospecesnadan",
+        "10": "losperrosladran",
+        "11": "nicaraguaestáencentroamérica",
+        "12": "pythonesunlenguajedeprogramación",
+        "13": "unaclasepuedecrearobjetos",
+        "14": "unacomputadoraprocesadatos",
+        "15": "unavariablealmacenainformación"
+    }
+}
