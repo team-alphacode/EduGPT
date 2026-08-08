@@ -1,17 +1,21 @@
 from src.models.model import EduGPT
 from src.datasets.corpus_builder import CorpusBuilder
 from src.tokenizer.tokenizer import Tokenizer
+from src.training.trainer import Trainer
 
 def main():
     model = EduGPT()
     builder = CorpusBuilder()
     tokenizer = Tokenizer()
+    trainer = Trainer(builder)
+
     while True:
         option = model.show_menu()
+        
         if option == "1":
             builder.build_corpus()
         elif option == "2":
-            model.train()
+            model.train(trainer)
         elif option == "3":
             model.show_information()
         elif option == "4":
